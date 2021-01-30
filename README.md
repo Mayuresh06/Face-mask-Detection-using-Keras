@@ -25,3 +25,8 @@ The model consisted of total Trainable parameters are 1,625,315 and total number
 We used MTCNN model to detect faces from the images, the mtcnn model gives an output of a bounding box which acts as our Region of Interest which is given as an input to the face detection model and the output is printed on the screen.
 ## OUTPUT:-
 
+![](https://github.com/Mayuresh06/Face-mask-Detection-using-Keras/blob/main/Images/image012.gif)
+
+![](https://github.com/Mayuresh06/Face-mask-Detection-using-Keras/blob/main/Images/image014.gif)
+
+![](https://github.com/Mayuresh06/Face-mask-Detection-using-Keras/blob/main/Images/image016.gif)
