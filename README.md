@@ -2,6 +2,9 @@
 During this pandemic it is very important for everyone to keep wearing a mask in public places and to ensure that everyone is wearing proper mask there should be an automated system which can detect multiple faces through a camera and detect if the person is wearing proper masks or not. So we tried to develop a system which can automatically detect if a person is wearing the mask or not.
 As seen in the block diagram the problem statement is divided into two major parts, first part being training a CNN classifier model which can classify any given image into one of the three categories i.e. WITH_MASK, WITHOUT_MASK or WITH_IMPROPER_MASK.
 The second part of the system includes deploying the face mask detection on a real time video feed where a MTCNN model is used for face detection, so after face is detected the Region of Interest is extracted then image is fed to the face detection model and the output is printed on to the screen.
+
+![](https://github.com/Mayuresh06/Face-mask-Detection-using-Keras/blob/main/Images/image002.jpg)
+
 ## Training The Model:-
 * Dataset: - we downloaded the image dataset from kaggle website, the dataset consisted of images of people wearing mask, not wearing mask and wearing improper masks. The total number of images present in the dataset was 6000, equally divided into three classes. 
 * Keras Sequential: - The core idea of Keras sequential is simply arranging the Keras layers in a sequential order and so, it is called Sequential API. Most of the ANN also has layers in sequential order and the data flows from one layer to another layer in the given order until the data finally reaches the output layer.
